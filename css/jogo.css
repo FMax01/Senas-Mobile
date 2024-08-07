@@ -1,0 +1,117 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 60px;
+  }
+  
+  /* Navegação */
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Conteúdo */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* Seção de Texto */
+  .text-section {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Fundo cinza */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada opcional */
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Imagem da Seção */
+  .section-image {
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Borda arredondada para a imagem */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+  }
+  
+  /* Contêiner de Texto */
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Ocupa o máximo de espaço disponível */
+  }
+  
+  /* Título da Seção */
+  .section-title {
+    color: white;
+    font-size: 20px;
+    margin: 0 0 10px 0; /* Espaço abaixo do título */
+  }
+  
+  /* Texto */
+  .text-item {
+    margin: 0 0 10px 0; /* Espaço abaixo do texto */
+    color: white;
+    font-size: 18px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Botão Play */
+  .play-button {
+    display: inline-block;
+    padding: 5px 15px; /* Tamanho reduzido */
+    color: white;
+    background-color: #007bff; /* Cor azul */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px; /* Tamanho da fonte reduzido */
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Margem superior para espaçamento */
+    align-self: flex-start; /* Alinha o botão à esquerda dentro do container */
+  }
+  
+  .play-button:hover {
+    background-color: #0056b3; /* Cor azul escuro ao passar o mouse */
+  }
+
+    /* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111; /* Fundo preto mais escuro */
+    color: #888; /* Texto cinza claro */
+    font-size: 14px;
+}
